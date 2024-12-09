@@ -1,0 +1,25 @@
+{
+  "name": "pc-cli",
+  "version": "1.0.0",
+  "description": "pc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "bin": {
+    "pc": "bin/pc.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "^18.0.0 || >= 18.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "execa": "^9.5.1",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.0.0",
+    "read-pkg": "^5.1.1"
+  }
+}
