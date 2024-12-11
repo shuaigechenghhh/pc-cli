@@ -6,7 +6,7 @@ function writeFileTree (dir, files) {
       fs.ensureDirSync(path.dirname(filePath))
       fs.writeFileSync(filePath, files[name])
     })
-  }
+}
   
 module.exports ={
  writeFileTree
